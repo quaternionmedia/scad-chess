@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="rook_profile" width="100%" height="100%"  viewBox="-6 -6 252 676">
+<desc>
+XCircuit Version 3.9
+File "profiles.ps" Page 6
+</desc>
+<g stroke="black">
+<path d="M0,46 L0,670 L246,670 246,650 238,650 C230,650 234,642 238,638 C246,630 242,610 222,602 C190,574 174,546 142,482 C150,478 150,474 150,470 C150,466 146,462 138,462 C118,422 114,184 114,160 C126,160 130,152 130,148 L130,140 L174,116 174,0 138,0 L138,46 0,46 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" />
+</g>
+</svg>

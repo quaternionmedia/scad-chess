@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="bishop_profile" width="100%" height="100%"  viewBox="-6 -6 254 894">
+<desc>
+XCircuit Version 3.9
+File "profiles.ps" Page 3
+</desc>
+<g stroke="black">
+<path d="M0,888 L248,888 248,868 240,868 C232,868 236,860 240,856 C248,848 244,828 224,820 C188,804 140,780 140,688 C84,678 70,456 70,424 C96,422 156,408 156,388 C156,376 120,360 104,356 L108,348 C88,344 64,328 96,308 L84,296 C124,272 172,152 32,48 C44,36 56,24 48,16 C40,8 16,0 0,0 L0,888 L0,0 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" />
+</g>
+</svg>
