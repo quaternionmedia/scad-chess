@@ -9,7 +9,7 @@ module queen() {
             }
             // Add the crown
             translate([0, 0, 219])
-            scale(6.7)
+            scale([6.7, 6.7, 7])
             import(file = "queen_crown2.stl");
         }
 

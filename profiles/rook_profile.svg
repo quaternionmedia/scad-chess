@@ -1,12 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   id="rook_profile" width="100%" height="100%"  viewBox="-6 -6 252 676">
-<desc>
+   id="rook_profile"
+   width="100%"
+   height="100%"
+   viewBox="-6 -6 252 676"
+   sodipodi:docname="rook_profile.svg"
+   inkscape:version="1.0.2 (1.0.2+r75+1)">
+  <metadata
+     id="metadata893">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs891" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     id="namedview889"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="4.8461539"
+     inkscape:cx="109.47066"
+     inkscape:cy="59.728578"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="rook_profile"
+     inkscape:document-rotation="0">
+    <sodipodi:guide
+       position="0.1464564,-2.7599425"
+       orientation="1,0"
+       id="guide895" />
+    <sodipodi:guide
+       position="144,624"
+       orientation="1,0"
+       id="guide897" />
+    <sodipodi:guide
+       position="180,670"
+       orientation="1,0"
+       id="guide899" />
+    <sodipodi:guide
+       position="144,670"
+       orientation="0,-1"
+       id="guide901" />
+    <sodipodi:guide
+       position="252,0"
+       orientation="0,-1"
+       id="guide903" />
+    <sodipodi:guide
+       position="180,722.26614"
+       orientation="1,0"
+       id="guide845" />
+    <sodipodi:guide
+       position="144,684.66338"
+       orientation="1,0"
+       id="guide847" />
+    <sodipodi:guide
+       position="136.06874,570.23722"
+       orientation="1,0"
+       id="guide849" />
+  </sodipodi:namedview>
+  <desc
+     id="desc882">
 XCircuit Version 3.9
-File "profiles.ps" Page 6
+File &quot;profiles.ps&quot; Page 6
 </desc>
-<g stroke="black">
-<path d="M0,46 L0,670 L246,670 246,650 238,650 C230,650 234,642 238,638 C246,630 242,610 222,602 C190,574 174,546 142,482 C150,478 150,474 150,470 C150,466 146,462 138,462 C118,422 114,184 114,160 C126,160 130,152 130,148 L130,140 L174,116 174,0 138,0 L138,46 0,46 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" />
-</g>
+  <g
+     stroke="black"
+     id="g886">
+    <path
+       d="M -5.8535436,25.703682 V 670 H 232.14919 v -20 h -8 c -8,0 -4,-8 0,-12 8,-8 4,-28 -16,-36 -32,-28 -26.9483,-57.95384 -58.9483,-121.95384 14.03092,-8.0242 7.28176,-19.78783 -4,-20 -20,-40 -14.7461,-338.68098 -15.13215,-350.46174 31.49352,1.21541 6.23621,-21.185299 28.93883,-21.802769 C 172.3045,87.420001 174.15475,82.37159 174,55.336622 V -93.932503 H 138 V 25.703682 H -5.8535436"
+       fill="none"
+       stroke-width="2"
+       stroke-linejoin="bevel"
+       stroke-linecap="round"
+       id="path884"
+       sodipodi:nodetypes="ccccssccccsscccc" />
+  </g>
 </svg>
