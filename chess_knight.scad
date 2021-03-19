@@ -2,8 +2,8 @@ segments = 64;
 
 module knight() {
     scale(0.2)
-    rotate([0, 0, 0])
-    translate([0, 0, 0]) {
+    rotate([0, 0, 90])
+    translate([0, 0, -31]) {
 
     translate([0, 0, 30])
     union () {
