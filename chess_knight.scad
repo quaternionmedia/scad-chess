@@ -20,4 +20,4 @@ module knight() {
     }
 }
 
-knight();
+scale([.6, .6, .7]) knight();

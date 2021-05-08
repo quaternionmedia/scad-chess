@@ -8,12 +8,12 @@ module queen() {
                 import(file = "profiles/queen_profile.svg");
             }
             // Add the crown
-            translate([0, 0, 219])
-            scale([6.7, 6.7, 7])
+            translate([0, 0, 210])
+            scale([6.7, 6.7, 7.5])
             import(file = "queen_crown2.stl");
         }
 
     }
 }
 
-queen();
+scale(.7) queen();

@@ -24,4 +24,4 @@ module rook() {
     }
 }
 
-rook();
+scale(.7) rook();

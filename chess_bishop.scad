@@ -17,4 +17,4 @@ module bishop() {
     }
 }
 
-bishop();
+scale([.6,.6,.7]) bishop();
