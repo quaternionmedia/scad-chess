@@ -1,7 +1,7 @@
 segments = 64;
 
 module knight() {
-    scale(0.2)
+    scale([.2, .2, .2])
     rotate([0, 0, 90])
     translate([0, 0, -31]) {
 
@@ -20,4 +20,4 @@ module knight() {
     }
 }
 
-scale([.6, .6, .7]) knight();
+scale(.7) knight();

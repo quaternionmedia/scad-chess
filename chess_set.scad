@@ -5,17 +5,20 @@ use<chess_queen.scad>
 use<chess_king.scad>
 use<chess_pawn.scad>
 
+// scale of set
+SCALE = .7;
+// square size (mm)
 square = 30;
 
 module chess_set() {
-    scale(.7) {
+    translate([square/2, 0, 0]) scale(SCALE) {
         rook();
-        translate([square, 0, 0]) scale([.9,.9,1]) knight();
-        translate([square*2, 0, 0]) scale([.9,.9,1]) bishop();
+        translate([square,   0, 0]) knight();
+        translate([square*2, 0, 0]) bishop();
         translate([square*3, 0, 0]) queen();
         translate([square*4, 0, 0]) king();
-        translate([square*5, 0, 0]) scale([.9,.9,1]) bishop();
-        translate([square*6, 0, 0]) scale([.9,.9,1]) knight();
+        translate([square*5, 0, 0]) bishop();
+        translate([square*6, 0, 0]) knight();
         translate([square*7, 0, 0]) rook();
         
         for (i=[0 : 7]) {

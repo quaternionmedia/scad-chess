@@ -13,4 +13,4 @@ module pawn() {
     }
 }
 
-pawn();
+scale(.7) pawn();

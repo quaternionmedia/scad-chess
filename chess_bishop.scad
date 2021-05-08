@@ -2,7 +2,7 @@ segments = 64;
 
 module bishop() {
     translate([0, 0, 34])
-    scale(0.2) {
+    scale([.18, .18, .2]) {
 
     translate([0, 0, 54])
     difference () {
@@ -17,4 +17,4 @@ module bishop() {
     }
 }
 
-scale([.6,.6,.7]) bishop();
+scale(.7) bishop();
