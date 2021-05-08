@@ -9,4 +9,4 @@ which was forked from [OpenSCAD Chess](https://www.thingiverse.com/thing:585218)
 
 This fork cleans up the files and alters the proportions to look more cohesive as a set.
 
-More details at [quaternion.media/scad-chess](quaternion.media/scad-chess)
+More details at [quaternion.media/scad-chess](https://quaternion.media/scad-chess)
