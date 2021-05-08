@@ -42,9 +42,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="2.7438994"
-     inkscape:cx="209.72132"
-     inkscape:cy="845.78067"
+     inkscape:zoom="3.8804597"
+     inkscape:cx="192.48511"
+     inkscape:cy="627.90266"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -58,6 +58,10 @@
        position="314,0"
        orientation="0,-1"
        id="guide2095" />
+    <sodipodi:guide
+       position="124,864"
+       orientation="1,0"
+       id="guide2004" />
   </sodipodi:namedview>
   <desc
      id="desc1519">
@@ -68,7 +72,7 @@ File &quot;profiles.ps&quot; Page 5
      stroke="black"
      id="g1523">
     <path
-       d="M -5.0591481,0 V 864 H 299.15062 v -28 h -8 c -4,0 -12,-4 -4,-12 16,-16 4,-44 -24,-52 C 199.15062,748 164,696 164,600 106,586 92,345.26037 92,225.26037 c 14,-2 116,-18 116,-50 0,-16 -22,-30 -54,-38 0,-12 -10,-30 -36,-34 V 48 c 16,-4 20,-12 20,-16 0,-4 -4,-12 -20,-16 V 0 H -5.0591481"
+       d="M -5.0591481,30.34774 V 864 H 264.38963 v -28 h -8 c -4,0 -12,-4 -4,-12 16,-16 4,-44 -24,-52 C 190.67047,760.11599 133.10326,664.16005 135.46758,616.74038 100.73211,599.91216 89.56659,345.57754 89.56659,225.57754 c 14,-2 118.43341,-18.31717 118.43341,-50.31717 0,-16 -22,-30 -54,-38 0,-12 -10,-30 -36,-34 V 78.34774 c 16,-4 20,-12 20,-16 0,-4 -4,-12 -20,-16 v -16 H -5.0591481"
        fill="none"
        stroke-width="2"
        stroke-linejoin="bevel"
