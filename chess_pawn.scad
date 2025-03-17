@@ -1,16 +1,7 @@
-segments = 64;
-
-module pawn() {
-    translate([0, 0, -28])
-    scale(0.2) {
-
-        translate([0, 0, 140])
-        rotate_extrude(convexity = 10, $fn = segments) {
-            scale(.25)
+module pawn(scale=1,segments=64) {
+    scale(scale/20)
+        rotate_extrude(convexity = 10, $fn = segments)
             import(file = "profiles/pawn_profile.svg");
-        }
-
-    }
 }
 
-scale(.7) pawn();
+pawn();

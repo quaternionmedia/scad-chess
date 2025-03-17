@@ -1,20 +1,14 @@
-segments = 64;
-
-module bishop() {
-    translate([0, 0, 34])
-    scale([.18, .18, .2]) {
-
-    translate([0, 0, 54])
+module bishop(scale=1,segments=64) {
+    scale(scale/20)
+    rotate([0,0,-90])
     difference () {
-        rotate_extrude(convexity = 10, $fn = segments) {
-        import(file = "profiles/bishop_profile.dxf");
-        }
-        translate([-30, 0, 0])
-        rotate([0, -45, 0])
-        cube([10, 80, 80], center = true);
-    }
+        rotate_extrude(convexity = 10, $fn = segments)
+        import(file = "profiles/bishop_profile.svg", id="body");
 
+        translate([9, 0, 34])
+        rotate([0, 60, 0])
+        cube([2, 20, 20], center = true);
     }
 }
 
-scale(.7) bishop();
+bishop();
