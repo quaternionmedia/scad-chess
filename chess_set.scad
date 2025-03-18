@@ -17,19 +17,25 @@ module chess_set() {
     {
         translate([square*0, square*0, 0]) rook(square*SCALE,$fn);
         translate([square*1, square*0, 0]) knight(square*SCALE,$fn);
-        //translate([square*1, square*1, 0]) knight(square*SCALE,$fn);
         translate([square*2, square*0, 0]) bishop(square*SCALE,$fn);
         translate([square*3, square*0, 0]) queen(square*SCALE,$fn);
-        //translate([square*3, square*1, 0]) queen(square*SCALE,$fn);
         translate([square*4, square*0, 0]) king(square*SCALE,$fn);
         translate([square*5, square*0, 0]) bishop(square*SCALE,$fn);
         translate([square*6, square*0, 0]) knight(square*SCALE,$fn);
-        //translate([square*6, square*1, 0]) knight(square*SCALE,$fn);
         translate([square*7, square*0, 0]) rook(square*SCALE,$fn);
         
         for (i=[0 : 7]) {
             translate([square*i, -square, 0]) pawn(square*SCALE,$fn);
         }
+
+	// some extras (pawn promotion, etc.)
+	/*
+        translate([square*0, square*1, 0]) rook(square*SCALE,$fn);
+        translate([square*1, square*1, 0]) knight(square*SCALE,$fn);
+        translate([square*2, square*1, 0]) bishop(square*SCALE,$fn);
+        translate([square*3, square*1, 0]) queen(square*SCALE,$fn);
+        translate([square*6, square*1, 0]) knight(square*SCALE,$fn);
+	*/
 
     }
     // reference markers
@@ -44,7 +50,7 @@ module chess_set() {
 // full chess set
 chess_set();
 
-// individual pieces (so printing can be cancelled per-piece in case one fails)
+// individual pieces (so printing can be cancelled per-piece in case one fails, see Marlin's M486 command)
 *bishop(square*SCALE,$fn);
 *king(square*SCALE,$fn);
 *knight(square*SCALE,$fn);
