@@ -10,7 +10,7 @@ square = 32;
 // scale of set, relative to size of square
 SCALE = .7;
 // number of divisions for rotate_extrude
-$fn = 32;
+$fn = 5;
 
 module chess_set() {
     translate([square/2, 0, 0])
@@ -48,12 +48,12 @@ module chess_set() {
 }
 
 // full chess set
-chess_set();
+*chess_set();
 
 // individual pieces (so printing can be cancelled per-piece in case one fails, see Marlin's M486 command)
 *bishop(square*SCALE,$fn);
 *king(square*SCALE,$fn);
-*knight(square*SCALE,$fn);
-*pawn(square*SCALE,$fn);
-*queen(square*SCALE,$fn);
-*rook(square*SCALE,$fn);
+*knight(square*SCALE,$fn,dfix=.97);
+pawn(square*SCALE,$fn);
+*queen(square*SCALE,$fn,rfix=15);
+*rook(square*SCALE,$fn,cutouts=4);

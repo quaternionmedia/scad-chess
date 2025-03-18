@@ -1,4 +1,4 @@
-module queen(scale=1,segments=64) {
+module queen(scale=1,segments=64,rfix=15) {
     scale(scale/20)
         union () {
             rotate_extrude(convexity = 10, $fn = segments)
@@ -6,6 +6,7 @@ module queen(scale=1,segments=64) {
 
             // Add the crown
             translate([0, 0, 30.5])
+	    rotate([0,0,rfix])
             scale(0.9) import(file = "queen_crown2.stl");
         }
 }

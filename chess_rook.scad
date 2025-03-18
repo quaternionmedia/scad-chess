@@ -1,20 +1,20 @@
 turret_height = 10;
 p0 = 0;
-p1 = 7;
-p2 = 10;
+p1 = 11;
+p2 = 2;
 
-module rook(scale=1,segments=64) {
+module rook(scale=1,segments=64,cutouts=4) {
     scale(scale/20)
         difference () {
             rotate_extrude(convexity = 10, $fn = segments)
             import(file = "profiles/rook_profile.svg"); 
 
-            // Four cutouts
+            // cutouts
             translate([0, 0, 33]) {
-                for (i=[0 : 90 : 360]) {    
-                  rotate([0, 0, i])
+                for (i=[0:cutouts]) {    
+                  rotate([0, 0, 360/cutouts*i])
                     linear_extrude(height = turret_height) {
-                        polygon( points=[[0,0],[p2,p1],[p1,p2]] );
+                        polygon( points=[[0,0],[p1,p2],[p1,-p2]] );
                     }
                 }
             }   

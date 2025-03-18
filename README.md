@@ -21,4 +21,7 @@ While working on this, I stumbled on
 * a problem with the size of the parts (due to changes between OpenSCAD versions)
 * a bug in GitHub (uploading an image, then moving the resulting URL within the text area deletes the image)
 * a bug in Inkscape (path vertices extending in the *x* negative range when aligned with the page) - or maybe it's a bug in OpenSCAD?
-* a bug in Prusa Slicer (perimeters marked as overhanging when they shouldn't be)
+* a bug in Prusa Slicer (perimeters marked as overhanging when they shouldn't be, on pawns)
+* yet another bug in Prusa Slicer (pawns with `$fn = 5` were missing most of the bottom 4 layers, even with solid bottom layers)
+
+For some reason I'm having trouble finding this fun anymore...
