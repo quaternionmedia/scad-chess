@@ -25,3 +25,15 @@ While working on this, I stumbled on
 * yet another bug in Prusa Slicer (pawns with `$fn = 5` were missing most of the bottom 4 layers, even with solid bottom layers)
 
 For some reason I'm having trouble finding this fun anymore...
+
+
+## Contributors
+- [Tim Edwards](https://www.thingiverse.com/timedwards/designs) - [OpenSCAD Chess](https://www.thingiverse.com/thing:585218)
+- [Dan Michitsch](https://www.thingiverse.com/zarlor/designs) - [OpenSCAD Chess Simple Printing](https://www.thingiverse.com/thing:3381939)
+- [Harpo](https://harpo.me/) - [scad-chess](https://github.com/quaternionmedia/scad-chess)
+  - Designed for [launchchess](https://www.quaternion.media/launchchess), scaled to play on Novation Launchpad devices
+- [engrenage](https://github.com/petaflot) - [scad-chess](https://github.com/petaflot/scad-chess)
+  - Designed for [PChess](https://github.com/petaflot/pchess), a 3+ player hexagonal chess variant
+
+## License
+This project is licensed under a Creative Commons Attribution 4.0 License (CC BY 4.0)
