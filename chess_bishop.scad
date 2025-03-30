@@ -1,5 +1,5 @@
 module bishop(scale=1,segments=64) {
-    scale(scale/20)
+    scale(scale)
     rotate([0,0,-90])
     difference () {
         rotate_extrude(convexity = 10, $fn = segments)

@@ -1,5 +1,5 @@
 module queen(scale=1,segments=64,rfix=15) {
-    scale(scale/20)
+    scale(scale)
         union () {
             rotate_extrude(convexity = 10, $fn = segments)
             import(file = "profiles/queen_profile.svg");

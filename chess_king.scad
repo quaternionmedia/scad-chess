@@ -1,6 +1,5 @@
 module king(scale=1,segments=64) {
-    scale(scale/20)
-    union () {
+    scale(scale) union () {
         rotate_extrude(convexity = 10, $fn = segments)
         import(file = "profiles/king_profile.svg", id="body");
 
