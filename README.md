@@ -2,21 +2,41 @@
 
 An open source chess set, made with openSCAD
 
-![full set](chess_set.png)
+![3D rendering of a chess set with light blue pieces over a dark background, with a 3D axis on the left](images/chess-set-round.png)
 
-Forked from [scad-chess](https://github.com/quaternionmedia/scad-chess)
-which was forked from [OpenSCAD Chess Simple Printing](https://www.thingiverse.com/thing:3381939)
-which was forked from [OpenSCAD Chess](https://www.thingiverse.com/thing:585218)
+## Design goals
+This project aims to create a chess set that is:
+* Parametric
+* Easy to modify and customize pieces
+* Easy to scale pieces, or the whole set
+* Easy to print on FDM 3D printers
 
-This fork cleans up the sizes and fixes the profiles for easier FDM printing ; also helps getting pieces of the correct size based on the chess board.
+## Customization
+Each piece can be editied individually in the `chess_{piece}.scad` file, or the whole set can be modified at once in `chess_set.scad`.
+
+### Parameters
+Each piece has individual parameters as documented, but all pieces share the following parameters:
+
+- `SCALE` - scale factor for the whole set
+- `$fn` - number of faces
+
+#### Examples
+Setting `$fn=4` makes square pieces
+![3D rendering of a chess set with square pieces](images/chess-set-square.png)
+
+Setting `$fn=6` makes hexagonal pieces
+![3D rendering of a chess set with hexagonal pieces](images/chess-set-hex.png)
+
+Setting `$fn=64` (or greater) makes (approximately) circular pieces
+![3D rendering of a chess set with circular pieces](images/chess-set-round.png)
 
 ## Printing
+The pieces are designed to be printed as-is, without supports, with or without infill.
 
-I recommend printing with 2 shells, zero bottom layers, 0% fill (or 5% gyroid) and then filling the pieces with some material such as plaster or cement to give them a nice and comfortable weight, finishing with a pad of felt underneath. A magnetic base is also an option for travel sets.
-
+### Filling
+For a more solid feel, the pieces can be printed hollow and filled with a material such as plaster or cement. This gives them a nice and comfortable weight, optionally finishing with a pad of felt underneath. A magnetic base is also an option for travel sets.
 
 ## Fun facts
-
 While working on this, I stumbled on
 * a problem with the size of the parts (due to changes between OpenSCAD versions)
 * a bug in GitHub (uploading an image, then moving the resulting URL within the text area deletes the image)
