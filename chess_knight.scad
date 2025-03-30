@@ -13,7 +13,7 @@ module knight(scale=1,segments=64,dfix=1) {
 	translate([0,0,8])
 	scale([.47*dfix,.47*dfix,.47])
         translate([-2.6,-4,0])
-        import(file = "horse3.stl");
+        import(file = "profiles/horse3.stl");
     }
 }
 
