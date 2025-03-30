@@ -3,7 +3,7 @@ module bishop(scale=1,segments=64) {
     rotate([0,0,-90])
     difference () {
         rotate_extrude(convexity = 10, $fn = segments)
-        import(file = "profiles/bishop_profile.svg", id="body");
+        import(file = "profiles/bishop_profile.svg");
 
         translate([9, 0, 34])
         rotate([0, 60, 0])

@@ -7,8 +7,10 @@ use <chess_pawn.scad>
 
 // chessboard square size (mm)
 square = 32;
+
 // scale of set, relative to size of square
 SCALE = 1;
+
 // number of divisions for rotate_extrude
 // set to 64 or larger for circular pieces
 $fn = 6;
