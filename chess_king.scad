@@ -1,21 +1,14 @@
-segments = 64;
+module king(scale=1,segments=64) {
+    scale(scale) union () {
+        rotate_extrude(convexity = 10, $fn = segments)
+        import(file = "profiles/king_profile_body.svg");
 
-module king() {
-    scale(0.2) {
-    union () {
-        rotate_extrude(convexity = 10, $fn = segments) {
-          scale(.25)
-          import(file = "profiles/king_profile.svg");
-        }
-        translate([-21, 8, 270])
         rotate([90, 0, 0])
-        linear_extrude(height = 16) {
-         scale(.22)
-        import(file = "profiles/cross_profile.svg");
+        translate([0,0,-1.5]) linear_extrude(height = 3) {
+        import(file = "profiles/king_profile_cross.svg");
         }
-    }
 
     }
 }
 
-scale(.7) king();
+king();

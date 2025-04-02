@@ -1,83 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="10mm"
+   height="40mm"
+   viewBox="0 0 10 40"
    version="1.1"
-   id="king_profile"
-   width="100%"
-   height="100%"
-   viewBox="-6 -6 314 1082"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    sodipodi:docname="king_profile.svg"
-   inkscape:version="1.0.2 (1.0.2+r75+1)">
-  <metadata
-     id="metadata2161">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs2159" />
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
+     id="namedview1"
      pagecolor="#ffffff"
-     bordercolor="#666666"
+     bordercolor="#cccccc"
      borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1015"
-     id="namedview2157"
-     showgrid="false"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     inkscape:zoom="2.2062777"
-     inkscape:cx="168.01043"
-     inkscape:cy="108.38383"
-     inkscape:window-x="0"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="9.3027793"
+     inkscape:cx="9.3520439"
+     inkscape:cy="33.484617"
+     inkscape:window-width="1210"
+     inkscape:window-height="1080"
+     inkscape:window-x="1920"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="king_profile"
-     inkscape:document-rotation="0">
-    <sodipodi:guide
-       position="6,0"
-       orientation="0,-1"
-       id="guide2724" />
-    <sodipodi:guide
-       position="185.83336,1063.8699"
-       orientation="0,-1"
-       id="guide1983" />
-    <sodipodi:guide
-       position="1.1019021,1076"
-       orientation="1,0"
-       id="guide1985" />
-  </sodipodi:namedview>
-  <desc
-     id="desc2150">
-XCircuit Version 3.9
-File &quot;profiles.ps&quot; Page 4
-</desc>
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
   <g
-     stroke="black"
-     id="g2154">
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
     <path
-       d="M -4.8980979,-6.1200791 V 1076 H 256.16667 v -28 h -8 c -4,0 -12,-4 -4,-12 16,-16 4,-44 -24,-52 -64,-24 -65.59788,-68.27652 -65.59788,-164.27652 C 96.568794,805.72348 96,520 96,400 c 14,-2 112,-16 112,-48 0,-16 -36,-36 -68,-44 0,-12 -4,-24 -44,-28 v -20 c 16,-4 20,-12 20,-16 0,-4 -4,-12 -20,-16 L 179.04286,40.110098 c 4,-12 -4,-20 -16,-20 H 71.042855 C 71.042855,12.110098 84,-6.1200791 76,-6.1200791 H -4.8980979"
+       d="M -4.8980979,-6.1200791 V 1076 H 256.16667 v -28 h -8 c -4,0 -12,-4 -4,-12 16,-16 4,-44 -24,-52 -64,-24 -65.59788,-68.27652 -65.59788,-164.27652 C 96.568794,805.72348 96,547.62936 96,427.62936 110,425.62936 194.18532,384 194.18532,352 194.18532,336 172,316 140,308 c 0,-12 -4,-24 -44,-28 v -20 c 16,-4 20,-12 20,-16 0,-4 -4,-12 -20,-16 L 179.04286,40.110098 c 4,-12 -4,-20 -16,-20 H 71.042855 C 71.042855,12.110098 84,-6.1200791 76,-6.1200791 H -4.8980979"
        fill="none"
        stroke-width="2"
        stroke-linejoin="bevel"
        stroke-linecap="round"
-       id="path2152"
-       sodipodi:nodetypes="ccccsscccscccsccscsc" />
+       id="body"
+       sodipodi:nodetypes="ccccsscccscccsccscsc"
+       style="fill:#000000;fill-opacity:0.546171;stroke:none"
+       transform="matrix(0.03830467,0,0,0.03830467,0.18762002,-1.2158249)" />
+    <path
+       d="m 128,152 v -32 l 48,-8 V 48 L 128,40 V 0 H 48 V 40 L 0,48 v 64 l 48,8 v 32 z"
+       fill="none"
+       stroke-width="2"
+       stroke-linejoin="bevel"
+       stroke-linecap="round"
+       id="cross"
+       transform="matrix(0.04501278,0,0,0.04501278,-3.9611244,-8.2595061)"
+       style="fill:#000000;fill-opacity:0.54617059" />
   </g>
 </svg>

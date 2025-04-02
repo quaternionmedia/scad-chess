@@ -1,27 +1,23 @@
-segments = 64;
-turret_height = 40;
+turret_height = 10;
 p0 = 0;
-p1 = 50;
-p2 = 60;
+p1 = 11;
+p2 = 2;
 
-module rook() {
-    scale(0.2) {
-        difference () {
-            rotate_extrude(convexity = 10, $fn = segments) {
-                scale(.25)
-                import(file = "profiles/rook_profile.svg"); 
-            }
-            // Four cutouts
-            translate([0, 0, 170]) {
-                for (i=[0 : 90 : 360]) {    
-                  rotate([0, 0, i])
-                    linear_extrude(height = turret_height) {
-                        polygon( points=[[0,0],[p2,p1],[p1,p2]] );
-                    }
+module rook(scale=1,segments=64,cutouts=4) {
+    scale(scale) difference () {
+        rotate_extrude(convexity = 10, $fn = segments)
+        import(file = "profiles/rook_profile.svg"); 
+
+        // cutouts
+        translate([0, 0, 33]) {
+            for (i=[0:cutouts]) {    
+              rotate([0, 0, 360/cutouts*i])
+                linear_extrude(height = turret_height) {
+                    polygon( points=[[0,0],[p1,p2],[p1,-p2]] );
                 }
-            }   
-        }
+            }
+        }   
     }
 }
 
-scale(.7) rook();
+rook();

@@ -1,23 +1,20 @@
-segments = 64;
-
-module knight() {
-    scale([.2, .2, .2])
-    rotate([0, 0, 90])
-    translate([0, 0, -31]) {
-
-    translate([0, 0, 30])
+/*
+ * dfix is intended for cases with a small number of segments
+ * TODO compute value automatically
+ */
+module knight(scale=1,segments=64,dfix=1) {
+    scale(scale)
+    rotate([0,0,-90])
     union () {
-        rotate_extrude(convexity = 10, $fn = 64) {
-            scale(.25)
+        rotate_extrude(convexity = 10, $fn = segments)
         import(file = "profiles/knight_profile.svg");
-        }
-        // Import STL for the knight
-        translate([-8, -12, 54])
-        scale(3.2)
-        import(file = "horse3.stl");
-    }
 
+    // Import STL for the knight
+	translate([0,0,8])
+	scale([.47*dfix,.47*dfix,.47])
+        translate([-2.6,-4,0])
+        import(file = "profiles/horse3.stl");
     }
 }
 
-scale(.7) knight();
+knight();
